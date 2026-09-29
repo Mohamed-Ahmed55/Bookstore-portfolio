@@ -1,0 +1,115 @@
+.offers{
+    background-color: #fff;
+}
+.offers .offers-box{
+    width: 100%;
+    height: 280px;
+    padding: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+    margin-top: 25px;
+    position: relative;
+}
+.offers .offers-box.one{
+    background: url('../../assets/h6_banner1.jpg') center/cover no-repeat;
+}
+.offers .offers-box.two{
+    background: url('../../assets/h6_banner2.jpg') center/cover no-repeat;
+}
+.offers .offers-box .text{
+    padding: 15px;
+    position: absolute;
+    right: 5%;
+    top: 8%;
+}
+.offers .offers-box .text h3{
+    font-size: 30px;
+    line-height: 50px;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+}
+.offers .offers-box .text h3 , 
+.offers .offers-box .text span{
+    color: #fff;
+    text-transform: capitalize;
+}
+.offers .offers-box .text span{
+    font-size: 17px;
+}
+.offers .offers-box .text button{
+    background-color: #027a36;
+    border: 1px solid #027a36;
+    text-align: center;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-top: 25px;
+}
+.offers .offers-box .text button a{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+.offers .offers-box .text button:hover{
+    background-color: transparent;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+.offers .offers-box .text button:hover a{
+    color: #027a36;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+.offers .offers-box:hover{
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transition: .6s ease-in-out;
+    -webkit-transition: .6s ease-in-out;
+    -moz-transition: .6s ease-in-out;
+    -ms-transition: .6s ease-in-out;
+    -o-transition: .6s ease-in-out;
+}
+.offers .offers-box .sale{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 3;
+    animation: move 5s linear infinite;
+    -webkit-animation: move 5s linear infinite;
+}
+@keyframes move{
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+100%{
+    transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+}
+}
